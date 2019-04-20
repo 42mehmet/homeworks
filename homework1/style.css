@@ -41,15 +41,15 @@
 /* TABLET */
 @media (max-width: 1000px) {
   .card:first-child{
-    flex: calc(100% - 10px) ;
+  width:  calc(100% - 20px) ;
   } 
 
-  .card:nth-child(n + 6){
-    flex: calc((100% - 10px) / 3) 
+  .card:nth-child(n + 2){
+   width: calc((100% / 4) - 20px) 
   }
 
-  .card:nth-child(n + 8){
-    flex: calc((100% - 10px) / 3) 
+  .card:nth-child(n + 6){
+    width: calc((100% / 3) - 20px) 
   }
 
   
