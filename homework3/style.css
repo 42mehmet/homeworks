@@ -3,18 +3,22 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
+  box-sizing: border-box;
 }
-
+.container {
+  position: relative;
+}
 .menu {
   width: 100%;
-  height: 40px;
-  background: white;
+  height: 37px;
+  background: #fff;
   border: 1px solid gray;
+  position: relative;
 }
 
 .menu ul {
   display: flex;
-  line-height: 40px;
+  line-height: 37px;
 }
 
 .menu ul li {
@@ -22,4 +26,56 @@
   padding-left: 20px;
   border-style: none;
   border-right: 1px solid gray;
+}
+.menu-left {
+  padding-left: 100px;
+}
+
+.sosial {
+  float: left;
+  position: absolute;
+  bottom: 5px;
+  left: 385px;
+  line-height: 30px;
+}
+
+.sosial a {
+  height: 75px;
+  padding: 5px;
+  color: gray;
+}
+
+.menu-right {
+  float: right;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding-right: 200px;
+}
+
+.menu1 {
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  height: 83px;
+  background: skyblue;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.menu1 a {
+  padding: 10px;
+}
+.first-img {
+  width: 100%;
+}
+.header-svg {
+  height: 23px;
+  width: 261px;
+  padding-left: 90px;
+}
+.menu1 ul {
+  display: flex;
+  padding-right: 150px;
 }
