@@ -12,8 +12,16 @@
   width: 100%;
   height: 37px;
   background: #fff;
-  border: 1px solid gray;
+  border: 1px gray solid;
   position: relative;
+}
+.languaes a {
+  color: #63605d;
+  font-size: 12px;
+}
+.menu-right a {
+  color: #63605d;
+  font-size: 12px;
 }
 
 .menu ul {
@@ -25,18 +33,16 @@
   padding-right: 25px;
   padding-left: 20px;
   border-style: none;
-  border-right: 1px solid gray;
+  border-right: 0.5px solid gray;
 }
 .menu-left {
   padding-left: 100px;
+  display: flex;
 }
 
 .sosial {
-  float: left;
-  position: absolute;
-  bottom: 5px;
-  left: 385px;
   line-height: 30px;
+  padding-left: 10px;
 }
 
 .sosial a {
@@ -58,7 +64,7 @@
   padding: 10px;
   margin: 0px;
   height: 83px;
-  background: skyblue;
+  background: white;
   align-items: center;
   position: absolute;
   display: flex;
@@ -66,16 +72,214 @@
 }
 .menu1 a {
   padding: 10px;
+  color: black;
+}
+
+.first-img img {
+  width: 100%;
+  border: 1px black solid;
 }
 .first-img {
-  width: 100%;
+  text-align: center;
+  max-height: 550px;
+  opacity: 0.9;
+  align-items: center;
+}
+.first-img h1 {
+  position: relative;
+  top: 300px;
+  left: 125px;
+  font-family: "Times New Roman", Georgia, serif;
+  color: #ffffff;
+  font-size: 70px;
 }
 .header-svg {
   height: 23px;
   width: 261px;
-  padding-left: 90px;
+  font-size: 1.25rem;
+  line-height: inherit;
+  position: relative;
+  bottom: 20px;
+  left: 150px;
 }
 .menu1 ul {
   display: flex;
   padding-right: 150px;
+}
+
+.middle-header img {
+  position: relative;
+  height: 400px;
+  width: 80%;
+  padding-left: 15%;
+  top: 120px;
+}
+
+.middle-header h2 {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: #fff;
+  background: #3c3330;
+  padding: 10px;
+  bottom: -50px;
+  position: relative;
+  margin-left: 202px;
+  width: 300px;
+}
+.three-img {
+  height: 400px;
+  width: 1100px;
+  background: white;
+  position: relative;
+  bottom: -85px;
+  margin: auto;
+  align-content: center;
+  overflow: hidden;
+}
+
+.box-one,
+.box-two,
+.box-three {
+  float: left;
+  height: 225px;
+  width: 320px;
+  margin: 10px;
+}
+.box-one {
+  background-image: url(Mexican-Cuisine.jpg);
+  background-size: cover;
+}
+.box-two {
+  background-image: url(Ethiopian-Cuisine.jpg);
+  background-size: cover;
+}
+.box-three {
+  background-image: url(Thai-Cuisine.jpg);
+  background-size: cover;
+}
+.text {
+  text-align: center;
+  margin-top: 15px;
+}
+h5 {
+  font-size: 21px;
+  color: gray;
+}
+h3 {
+  font-size: 42px;
+  color: #0073ae;
+}
+.three-img h4 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+  background: gray;
+  margin-top: 150px;
+  padding: 10px;
+  line-height: 24px;
+}
+
+.amsterdam {
+  background-image: url(Amsterdam-Netherlands.jpg);
+  width: 100%;
+  height: 579px;
+  background-size: cover;
+  margin-top: 130px;
+  padding-top: 50px;
+}
+
+.amsterdam .p {
+  height: 600px;
+  width: 400px;
+  background: #0073ae;
+  margin-left: 100px;
+  z-index: 2;
+  border: 1px black solid;
+  color: white;
+  font-family: sans-serif;
+}
+
+.amsterdam h2 {
+  padding-top: 80px;
+  text-align: center;
+  line-height: 45px;
+  padding-left: 10px;
+}
+.amsterdam h1 {
+  text-align: center;
+  padding-top: 45px;
+}
+.amsterdam p {
+  padding-top: 50px;
+  text-align: center;
+  line-height: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  position: relative;
+}
+.amsterdam a {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.earth {
+  background-image: url(EarthAtNight_SuomiNPP_3600.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  margin-top: -75px;
+  color: white;
+}
+.earth h1 {
+  color: white;
+  padding-top: 150px;
+}
+.earth .link {
+  height: 20px;
+  width: 300px;
+  background-color: gray;
+  display: flex;
+  justify-content: flex-end;
+}
+.earth .link :first-child {
+  border-right: 0.5px black solid;
+}
+.earth .link a {
+  padding-left: 5px;
+}
+.earth h2 {
+  font-size: 21px;
+  text-align: center;
+}
+.top-end {
+  height: 300px;
+  width: 100%;
+  background: rgb(54, 50, 50);
+  display: flex;
+  justify-content: column;
+  color: white;
+  text-align: center;
+}
+.top-end-image {
+  background-image: url(Mexican-Cuisine.jpg);
+  height: 300px;
+  width: calc(100% / 3);
+}
+.top-end-menu {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 300px;
+  width: calc(100% / 3);
+}
+.top-end-follow {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 300px;
+  width: calc(100% / 3);
+}
+.top-end a {
+  color: gray;
 }
