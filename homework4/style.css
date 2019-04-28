@@ -1,0 +1,313 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.topheader {
+  width: 100%;
+  height: 37px;
+  border: 1px rgb(114, 100, 100) solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: relative;
+}
+
+.left-header {
+  display: flex;
+  padding-left: 100px;
+  color: gray;
+}
+.lang a {
+  border-right: 0.5px solid black;
+  padding: 5px;
+  color: gray;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.sosial {
+  width: 135px;
+  height: auto;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.sosial a {
+  padding-left: 5px;
+  color: gray;
+}
+.right-header {
+  padding-right: 100px;
+}
+
+.right-header a {
+  padding-right: 20px;
+  color: gray;
+  border-right: 0.5px black solid;
+  line-height: 50px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.header {
+  height: 84px;
+  width: 90%;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+
+.logo {
+  background-image: url(img.svg);
+  height: 35px;
+  width: 200px;
+  margin-left: 50px;
+}
+.header .button {
+  margin-right: 50px;
+}
+.header .button a {
+  margin-left: 10px;
+  color: black;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.first-img {
+  width: 100%;
+  height: 480px;
+  background-image: url(Homepage-banner.jpg);
+  text-align: center;
+  background-size: cover;
+}
+
+.first-img h1 {
+  color: #ffffff;
+  font-size: 75px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.two-img {
+  width: 75%;
+  height: 450px;
+  background-image: url(Why-we-love-NYC.jpg);
+  margin-top: 50px;
+  display: flex;
+  margin-left: 12.5%;
+  position: relative;
+  background-size: cover;
+}
+.two-img .banner {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: #fff;
+  background: #3c3330;
+  margin-bottom: 0;
+  padding: 15px 40px;
+  position: absolute;
+  bottom: 25px;
+}
+.two-img :hover {
+  background: #0073ae;
+}
+
+.three-img {
+  width: 75%;
+  height: 357px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+}
+.box-one,
+.box-two,
+.box-three {
+  float: left;
+  height: 200px;
+  width: calc((100% / 3) - 20px);
+  margin: 5px;
+}
+
+.box-one {
+  background-image: url(Mexican-Cuisine.jpg);
+  background-size: cover;
+}
+.box-two {
+  background-image: url(Ethiopian-Cuisine.jpg);
+  background-size: cover;
+}
+.box-three {
+  background-image: url(Thai-Cuisine.jpg);
+  background-size: cover;
+}
+
+.box-three :hover {
+  background: #0073ae;
+}
+.box-two :hover {
+  background: #0073ae;
+}
+.box-one :hover {
+  background: #0073ae;
+}
+
+.three-img h3 {
+  color: #706b68;
+  font-size: 21px;
+  font-family: "Source Sans Pro";
+}
+.three-img h1 {
+  color: #0073ae;
+  font-size: 35px;
+  font-family: "Source Sans Pro";
+  padding-top: 10px;
+}
+.three-img h4 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+  background: gray;
+  margin-top: 150px;
+  padding: 10px;
+  line-height: 24px;
+  position: absolute;
+}
+.amsterdam {
+  background-image: url(Amsterdam-Netherlands.jpg);
+  width: 100%;
+  height: 579px;
+  background-size: cover;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+.amsterdam .p {
+  height: 600px;
+  width: 400px;
+  background: #0073ae;
+  margin-left: 100px;
+  border: 1px black solid;
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+}
+.amsterdam h2 {
+  padding-top: 80px;
+  text-align: center;
+  line-height: 45px;
+  padding-left: 10px;
+}
+.amsterdam h1 {
+  text-align: center;
+  padding-top: 45px;
+}
+.amsterdam p {
+  padding-top: 50px;
+  text-align: center;
+  line-height: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  position: relative;
+}
+.amsterdam a {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.earth {
+  background-image: url(EarthAtNight_SuomiNPP_3600.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  padding-top: -75px;
+  color: white;
+}
+.earth h1 {
+  color: white;
+  padding-top: 150px;
+}
+.earth .link {
+  height: 20px;
+  width: 300px;
+  background-color: gray;
+  float: right;
+}
+
+.earth .link :first-child {
+  border-right: 0.5px black solid;
+}
+.earth .link a {
+  padding-right: 5px;
+  text-align: end;
+}
+.earth h2 {
+  font-size: 21px;
+  margin-top: 40%;
+  height: 50px;
+  width: 293px;
+  border: 1px gray solid;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 40%;
+}
+.earth h1 {
+  text-align: center;
+}
+.top-end {
+  height: 200px;
+  width: 100%;
+  background: rgb(54, 50, 50);
+  display: flex;
+  justify-content: column;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+.top-end-image {
+  background-image: url(img.svg);
+  height: 200px;
+  width: calc(100% / 3);
+}
+
+.top-end-menu {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 200px;
+  width: calc(100% / 3);
+}
+.top-end-follow {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 200px;
+  width: calc(100% / 3);
+}
+.top-end a {
+  color: gray;
+}
+.top-end h2 {
+  float: inline-start;
+}
+.bottom {
+  height: 50px;
+  width: 100%;
+  background: #1f1e1c;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: white;
+  line-height: 50px;
+}

@@ -5,9 +5,7 @@
   list-style: none;
   box-sizing: border-box;
 }
-.container {
-  position: relative;
-}
+
 .menu {
   width: 100%;
   height: 37px;
@@ -199,6 +197,7 @@ h3 {
   border: 1px black solid;
   color: white;
   font-family: sans-serif;
+  position: relative;
 }
 
 .amsterdam h2 {
@@ -230,7 +229,6 @@ h3 {
   width: 100%;
   height: 800px;
   background-size: cover;
-  margin-top: -75px;
   color: white;
 }
 .earth h1 {
@@ -264,7 +262,7 @@ h3 {
   text-align: center;
 }
 .top-end-image {
-  background-image: url(Mexican-Cuisine.jpg);
+  background-image: url(img.svg);
   height: 300px;
   width: calc(100% / 3);
 }
