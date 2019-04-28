@@ -185,7 +185,6 @@
   width: 100%;
   height: 579px;
   background-size: cover;
-  margin-top: 100px;
   padding-top: 50px;
 }
 
@@ -310,4 +309,7 @@
   padding-left: 15px;
   color: white;
   line-height: 50px;
+}
+.bottom a {
+  color: orange;
 }
